@@ -15,7 +15,7 @@
 		/* Styling the Body element i.e. Color,
 		Font, Alignment */
 		body {
-			background-color: #05c46b;
+			background-color: #ffcc66;
 			font-family: Verdana;
 			text-align: center;
 		}
@@ -64,7 +64,7 @@
 
 		/* Styling Button */
 		button {
-			background-color: #ffcc66;
+			background-color: #05c46b;
 			border: 1px solid #777;
 			border-radius: 2px;
 			font-family: inherit;
@@ -86,110 +86,71 @@
 		<!-- Details -->
 
 		<div class="form-control">
-			<label for="role" id="label-role">
+			<label for="year1" id="label-year1">
 				出生年份：天干
 			</label>
 			
 			<!-- Dropdown options -->
-			<select name="role" id="role">
-				<option value="student">甲</option>
-				<option value="intern">乙</option>
-				<option value="professional">
-					丙
-				</option>
-				<option value="other">Other</option>
+			<select name="year1" id="year1">
+				<option value="1">甲</option>
+				<option value="2">乙</option>
+				<option value="3">丙</option>
+				<option value="4">丁</option>
+				<option value="5">戊</option>
+				<option value="6">己</option>
+				<option value="7">庚</option>
+				<option value="8">辛</option>
+				<option value="9">壬</option>
+				<option value="10">癸</option>
 			</select>
 		</div>
 		
 		<div class="form-control">
-			<label for="role" id="label-role">
-				出生年份：天干（属相）
+			<label for="year2" id="label-year2">
+				出生年份：地支（属相）
 			</label>
 			
 			<!-- Dropdown options -->
-			<select name="role" id="role">
-				<option value="student">Student</option>
-				<option value="intern">Intern</option>
-				<option value="professional">
-					Professional
-				</option>
-				<option value="other">Other</option>
+			<select name="year2" id="year2">
+				<option value="1">子鼠</option>
+				<option value="2">丑牛</option>
+				<option value="3">寅虎</option>
+				<option value="4">卯兔</option>
+				<option value="5">辰龙</option>
+				<option value="6">巳蛇</option>
+				<option value="7">午马</option>
+				<option value="8">未羊</option>
+				<option value="9">申猴</option>
+				<option value="10">酉鸡</option>
+				<option value="11">戌狗</option>
+				<option value="12">亥猪</option>
+			</select>
+		</div>
+		
+		<div class="form-control">
+			<label for="hour" id="label-hour">
+				出生时间
+			</label>
+			
+			<!-- Dropdown options -->
+			<select name="hour" id="hour">
+				<option value="1">子时 00:00~02:00</option>
+				<option value="2">丑时 02:00~04:00</option>
+				<option value="3">寅时 04:00~06:00</option>
+				<option value="4">卯时 06:00~08:00</option>
+				<option value="5">辰时 08:00~10:00</option>
+				<option value="6">巳时 10:00~12:00</option>
+				<option value="7">午时 12:00~14:00</option>
+				<option value="8">未时 14:00~16:00</option>
+				<option value="9">申时 16:00~18:00</option>
+				<option value="10">酉时 18:00~20:00</option>
+				<option value="11">戌时 20:00~22:00</option>
+				<option value="12">亥时 22:00~24:00</option>
 			</select>
 		</div>
 		
 
-		<div class="form-control">
-			<label>
-				Would you recommed GeeksforGeeks
-				to a friend?
-			</label>
-
-			<!-- Input Type Radio Button -->
-			<label for="recommed-1">
-				<input type="radio"
-					id="recommed-1"
-					name="recommed">Yes</input>
-			</label>
-			<label for="recommed-2">
-				<input type="radio"
-					id="recommed-2"
-					name="recommed">No</input>
-			</label>
-			<label for="recommed-3">
-				<input type="radio"
-					id="recommed-3"
-					name="recommed">Maybe</input>
-			</label>
-		</div>
-
-		<div class="form-control">
-			<label>Languages and Frameworks known
-				<small>(Check all that apply)</small>
-			</label>
-			<!-- Input Type Checkbox -->
-			<label for="inp-1">
-				<input type="checkbox"
-					name="inp">C</input></label>
-			<label for="inp-2">
-				<input type="checkbox"
-					name="inp">C++</input></label>
-			<label for="inp-3">
-				<input type="checkbox"
-					name="inp">C#</input></label>
-			<label for="inp-4">
-				<input type="checkbox"
-					name="inp">Java</input></label>
-			<label for="inp-5">
-				<input type="checkbox"
-					name="inp">Python</input></label>
-			<label for="inp-6">
-				<input type="checkbox"
-					name="inp">JavaScript</input></label>
-			<label for="inp-7">
-				<input type="checkbox"
-					name="inp">React</input></label>
-			<label for="inp-7">
-				<input type="checkbox"
-					name="inp">Angular</input></label>
-			<label for="inp-7">
-				<input type="checkbox"
-					name="inp">Django</input></label>
-			<label for="inp-7">
-				<input type="checkbox"
-					name="inp">Spring</input></label>
-		</div>
-
-		<div class="form-control">
-			<label for="comment">
-				Any comments or suggestions
-			</label>
-
-			<!-- multi-line text input control -->
-			<textarea name="comment" id="comment"
-				placeholder="Enter your comment here">
-			</textarea>
-		</div>
-
+		
 		<!-- Multi-line Text Input Control -->
 		<button type="submit" value="submit">
 			Submit
